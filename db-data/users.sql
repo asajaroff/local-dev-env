@@ -1,7 +1,3 @@
-CREATE DATABASE users_system;
-
-\c users_system
-
 CREATE TABLE IF NOT EXISTS users (
     id VARCHAR(255) PRIMARY KEY,
     primaryEmail VARCHAR(255) NOT NULL,
